@@ -1,0 +1,23 @@
+{
+  "name": "frame",
+  "version": "1.0.0",
+  "description": "A Neynar project for burning Spore NFTs and minting MycoBud NFTs with multi-step cast actions.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "create-frontend": "node frontend.js",
+    "create-cast-action": "node castAction.js",
+    "create-cast-hash-frame": "node castHashFrame.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@irys/upload": "^0.0.14",
+    "@irys/upload-ethereum": "^0.0.14",
+    "@neynar/nodejs-sdk": "^1.71.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.4",
+    "express": "^4.21.1"
+  }
+}
